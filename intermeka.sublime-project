@@ -1,0 +1,37 @@
+{
+    "build_systems":
+    [
+        {
+            "name": "py_main",
+            "target": "subprocess_build",
+            //"windows":
+            //{
+            //    "curdir": "C:\\code\\revabotica\\",
+            //    "exe": "C:\\python27\\python.exe",
+            //    "fname": "C:\\code\\revabotica\\main.py"
+            //},
+            "linux":
+            {
+                "curdir": "/home/admalledd/Documents/code/python/intermeka/",
+                "exe": "python",
+                "fname": "/home/admalledd/Documents/code/python/intermeka/main.py"
+            }
+        }
+    ],
+    "folders":
+    [
+        {
+            "path": "./",
+            "name": "intermeka"
+        }
+	],
+    "settings": {
+        "python_interpreter_path": "python"
+
+        //"python_package_paths": [
+        //    "/home/sr/python_packages1",
+        //    "/home/sr/python_packages2",
+        //    "/home/sr/python_packages3"
+        //    ]
+    }
+}
