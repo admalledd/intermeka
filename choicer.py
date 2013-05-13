@@ -8,7 +8,7 @@ from node_types import *
 
 def handle_event(event):
     '''Base function for taking in a sdl event and navigating the choice tree'''
-
+    pass
 
 
 root=list_node('root',[

@@ -196,7 +196,4 @@ def _convert_event(__event):
 def get_event_wait(timeout=500):
     event = _ffi.new('SDL_Event *')
     lookup("SDL_WaitEventTimeout")(event,timeout)
-    if event.type == 0:
-        #no event?
-        return None
     return _convert_event(event)
